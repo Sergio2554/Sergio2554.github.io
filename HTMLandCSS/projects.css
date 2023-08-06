@@ -1,0 +1,55 @@
+body {
+	background-image: url("../Images/Other/side.png");
+	background-repeat: repeat-y;
+	background-color: #cbdbfc;
+	
+	padding: 10px;
+	
+	font-size: 20px;
+}
+
+.content {
+	margin-left: 230px;
+}
+
+.nav {
+	float: left;
+	width: 100px;
+	margin-left: 16px;
+	margin-top: 70px;
+}
+
+.files {
+	display: flex;
+}
+
+.files p {
+	padding-right: 50px;
+}
+
+/* nav links */
+.nav a:link, .nav a:visited {
+	text-decoration: none;
+	color: #e3cd1c;
+}
+.nav a:active { text-decoration: underline; }
+.nav a:hover { color: blue; }
+
+/* content links */
+.files p {
+	color: green;
+}
+.files p:active { text-decoration: underline; }
+.files p:hover { color: blue; }
+
+/* Javascript added content */
+.uni img { width: 80%; height: 80%;} /* Unity Images all just the same size */
+
+.desc { padding-top: 20px; font-size: 22px;}
+
+.info img { margin-top: 30px; }
+.info .ex { margin-top: 0px; } /* For images we don't want margin top and group together */
+.info p { margin-top: -3px;}
+
+.link { padding-top: 200px; } /* Fix later */
+

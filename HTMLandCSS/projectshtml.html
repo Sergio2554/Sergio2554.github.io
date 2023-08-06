@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Sergio Portfolio HTML</title>
+	<link rel="stylesheet" href="projects.css">
+	<script src="../JavaScripts/projects.js"></script>
+	<script src="../JavaScripts/projectshtml.js"></script>
+	<style>.files img { content:url("../Images/Other/html.png"); }</style>
+	<style id="css"></style>
+</head>
+<body>
+	<div class="nav">
+
+		<p><a href="index.html">Home</a></p>
+		<p><a href="projectscplus.html">C++</a></p>
+		<p><a href="projectshtml.html">HTML<br>and CSS</a></p>
+		<p><a href="projectscsharp.html">C# Windows<br>Forms Apps</a></p>
+		<p><a href="projectsunity.html">Unity</a></p>
+
+	</div>
+	<div class="content">
+
+		<h1>HTML, CSS, and Javascript Projects</h1>
+		<p>Click on a project to see details and download Zip Files.</p>
+		<h2>Implementation of HTML and CSS Only</h2>
+		<div class="files">
+			<p onclick="info(one, this)">
+				<img src="./Images/html.png"><br>Final Website Project
+			</p>
+		</div>
+		<h2>Implementation of HTML, CSS, and JavaScript</h2>
+		<div class="files">
+			<p onclick="info(two, this)">
+				<img src="./Images/html.png"><br>Portfolio
+			</p>
+		</div>
+		
+		<p class="desc" id="desc"></p>
+		<div class="info" id="info">
+			<!-- Filled by projectshtml.js -->
+		</div>
+		<a class="link" id="link"></a>
+			
+	</div>
+</body>
+
+</html>

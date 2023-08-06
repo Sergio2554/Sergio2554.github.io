@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Sergio Portfolio Unity</title>
+	<link rel="stylesheet" href="projects.css">
+	<script src="../JavaScripts/projects.js"></script>
+	<script src="../JavaScripts/projectsunity.js"></script>
+	<style>.files img { content:url("../Images/Other/unity.png"); }</style>
+	<style id="css"></style>
+</head>
+<body>
+	<div class="nav">
+	
+		<p><a href="index.html">Home</a></p>
+		<p><a href="projectscplus.html">C++</a></p>
+		<p><a href="projectshtml.html">HTML<br>and CSS</a></p>
+		<p><a href="projectscsharp.html">C# Windows<br>Forms Apps</a></p>
+		<p><a href="projectsunity.html">Unity</a></p>
+		
+	</div>
+	<div class="content">
+	
+		<h1>Unity Projects</h1>
+		<p>These prototypes were made by following Unity Learn's 
+		<a href="https://learn.unity.com/course/create-with-code">"Create with Code"</a> course for my Game Design class.</p>
+		<p>Click on a project to download a zip file containing a Unity Package.<br>
+		Import to a Unity Project, select a Scene from the Scenes folder, then just hit Play!</p>
+		<div class="files">
+			<p id="one" onclick="info(one, this)">
+				<img><br>Car Prototype
+			</p>
+			<p id="two" onclick="info(two, this)">
+				<img><br>Shooter Prototype
+			</p>
+			<p id="three" onclick="info(three, this)">
+				<img><br>Autorunner Prototype
+			</p>
+			<p id="four" onclick="info(four, this)">
+				<img><br>Ball Arena Prototype
+			</p>
+			<p id="five" onclick="info(five, this)">
+				<img><br>Clicking Prototype
+			</p>
+		</div>
+		
+		<p class="desc" id="desc"></p>
+		<div class="info uni" id="info">
+			<!-- Filled by projectsunity.js -->
+		</div>
+		<a id="link"></a>
+		
+	</div>
+</body>
+
+</html>
+
