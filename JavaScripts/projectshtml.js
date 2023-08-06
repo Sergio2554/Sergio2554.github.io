@@ -24,14 +24,19 @@ const one = new Project(
 );
 
 const two = new Project(
+	``,
 	`
 		<p>
 			This entire website was made with HTML, CSS, and Javascript.<br>
 			Feel free to look at the code for it.
 		</p>
+		<p>
+			Note: The ZipFiles, Other Files, and Image Folders were removed due to size. Zip Files for projects<br>
+			are availaible individually through each Project's Zip File link on each page on this Portfolio.
+		</p>
 	`
 	,
 	""
 	,
-	"daw"
+	"../ZipFiles/HTML/Portfolio.zip"
 );
