@@ -16,7 +16,6 @@ const one = new Project(
 			height: 70%;
 			width: 70%;
 		}
-		
 	`
 	,
 	

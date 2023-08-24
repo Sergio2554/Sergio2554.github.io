@@ -44,6 +44,7 @@ body {
 
 /* Javascript added content */
 .uni img { width: 80%; height: 80%;} /* Unity Images all just the same size */
+.jav img { width: 30%; height: 30%;} /* Java Images all just the same size */
 
 .desc { padding-top: 20px; font-size: 22px;}
 
