@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+	border-style: solid;
+	
+	margin: 0px;
+	padding: 0px;
+	background-color: #f1f1f1;
+	border-color: blue;
+}
+
+li {
+	display: inline;
+	
+	padding: 100px;
+}
+
+body {
+	background-color: #fce694;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+h2{
+	margin-left: 20px;
+}
+
+p {
+	margin-left: 30px;
+}
+
+.header h1 {
+	background-color: #05c6fc;
+}

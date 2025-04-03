@@ -1,0 +1,1 @@
+Open "home.html" in a web browser to start
