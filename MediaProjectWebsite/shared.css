@@ -1,17 +1,21 @@
 ul {
 	list-style-type: none;
-	border-style: solid;
 	
 	margin: 0px;
 	padding: 0px;
-	background-color: #f1f1f1;
-	border-color: blue;
+	
+	
+	overflow: hidden;
 }
 
 li {
-	display: inline;
-	
-	padding: 100px;
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	background-color: #fcbc55;
 }
 
 body {
@@ -22,7 +26,7 @@ h1 {
 	margin-left: 10px;
 }
 
-h2{
+h2, h3 {
 	margin-left: 20px;
 }
 
@@ -32,4 +36,13 @@ p {
 
 .header h1 {
 	background-color: #05c6fc;
+}
+
+.imge img {
+	width: 25%;
+}
+
+a:visited, a:link {
+	color: blue;
+	text-decoration: underline;
 }
